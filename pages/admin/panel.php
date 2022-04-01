@@ -26,7 +26,7 @@ session_start();
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item d-flex">
-                    <a class="nav-link" aria-current="page" href="#">Mon Compte</a>
+                    <a class="nav-link" aria-current="page" href="../private/Projets/menuProjets.php">Mes Projets</a>
                     <a class="nav-link" aria-current="page" href="#">? ? ?</a>
                     <a class="nav-link" aria-current="page" href="#">? ? ?</a>
                     <a class="nav-link disabled" aria-current="page" href="#"><?= $_SESSION['email']?></a>
