@@ -1,0 +1,20 @@
+/* # register.php # */
+.card-register{
+    background-color: black;
+}
+
+/* # nav_bar.php # */
+
+.neon-nav{
+    animation: link 6s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes link {
+    25%{
+        color: white !important;
+    }
+    75%{
+        color: gray !important;
+    }
+}
