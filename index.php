@@ -21,13 +21,24 @@
         <?php require_once "pages/private/Projets/afficheProjets.php"?>
     </section>
     <br>
-    <section id="competences" class="bg-primary">
-        <?php //require_once "pages/private/Competences/afficheCompetences.php"?>
-    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <footer>
-        <?php //require_once "addons/php/footer.php"?>
+        <?php require_once "addons/php/footer.php"?>
     </footer>
 </body>
 </html>

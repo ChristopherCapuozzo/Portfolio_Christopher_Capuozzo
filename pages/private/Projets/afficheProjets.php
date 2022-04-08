@@ -58,11 +58,12 @@ if(isset($_POST['btn-back'])){
                         <div class="card-body">
                             <!--<img src="" alt="">-->
                             <div class="">
-                                <p class="mx-2"><strong>Nom : </strong> <?= $afficheProjets['nom_projet']?></p>
+                                <p class="mx-2"><strong><?= $afficheProjets['nom_projet']?></strong></p>
                                 <!--<p class="mx-2"><strong>Lien : </strong> <a href="<?= $afficheProjets['url_projet']?>" target="_blank"><?= $afficheProjets['url_projet']?></a></p>-->
                             </div>
                             <form class="" method="get">
-                                <a class="btn btn-outline-light" href="<?= $afficheProjets['url_projet']?>" target="_blank">Visiter</a>
+                                <a class="btn btn-outline-light" href="<?= $afficheProjets['url_projet']?>" target="_blank">Site</a>
+                                <a class="btn btn-outline-light" href="<?= $afficheProjets['url_projet_code']?>" target="_blank">Code</a>
                             </form>
                         </div>
                     </div>

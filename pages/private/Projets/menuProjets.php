@@ -61,7 +61,8 @@ if(isset($_POST['btn-back'])){
                             <!--<img src="" alt="">-->
                             <div class="">
                                 <p class="mx-2"><strong>Nom : </strong> <?= $afficheProjets['nom_projet']?></p>
-                                <p class="mx-2"><strong>Lien : </strong> <a href="<?= $afficheProjets['url_projet']?>" target="_blank"><?= $afficheProjets['url_projet']?></a></p>
+                                <p class="mx-2"><strong>Site : </strong> <a href="<?= $afficheProjets['url_projet']?>" target="_blank"><?= $afficheProjets['url_projet']?></a></p>
+                                <p class="mx-2"><strong>Code : </strong> <a href="<?= $afficheProjets['url_projet_code']?>" target="_blank"><?= $afficheProjets['url_projet_code']?></a></p>
                             </div>
                             <form class="card-footer" method="get">
                                 <a href="editProjets.php?id_projects=<?= $afficheProjets['id_projet']?>" class="btn btn-outline-warning">Modifier</a>

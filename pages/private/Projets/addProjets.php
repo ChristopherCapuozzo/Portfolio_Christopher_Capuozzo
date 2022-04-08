@@ -31,8 +31,14 @@ session_start();
         </div>
         <div class="d-flex text-light">
             <div class="col mx-2">
-                <label class="form-label" for="url-projet">Url</label>
+                <label class="form-label" for="url-projet">Lien du site</label>
                 <input class="form-control" type="text" name="url-projet" placeholder="Url du projet">
+            </div>
+        </div>
+        <div class="d-flex text-light">
+            <div class="col mx-2">
+                <label class="form-label" for="url-projet">Lien du code</label>
+                <input class="form-control" type="text" name="url-projet-code" placeholder="Code du projet">
             </div>
         </div>
 
@@ -63,20 +69,23 @@ try{
     die();
 }
 
-if(isset($_POST['nom-projet']) && !empty($_POST['nom-projet']) && isset($_POST['url-projet']) && !empty($_POST['url-projet'])){
+if(isset($_POST['nom-projet']) && !empty($_POST['nom-projet']) && isset($_POST['url-projet']) && !empty($_POST['url-projet']) && isset($_POST['url-projet-code']) && !empty($_POST['url-projet-code'])){
     $nomProjet = trim(htmlspecialchars($_POST['nom-projet']));
     $urlProjet = trim(htmlspecialchars($_POST['url-projet']));
+    $urlProjetCode = trim(htmlspecialchars($_POST['url-projet-code']));
 
     if($urlProjet === $urlProjet){
-        $sqlRegister = "INSERT INTO `projets` (`nom_projet`, `url_projet`) VALUES (?,?)";
+        $sqlRegister = "INSERT INTO `projets` (`nom_projet`, `url_projet`, `url_projet_code`) VALUES (?,?,?)";
         $inserProjet = $bdd_name->prepare($sqlRegister);
 
         $inserProjet->bindParam(1, $nomProjet);
         $inserProjet->bindParam(2, $urlProjet);
+        $inserProjet->bindParam(3, $urlProjetCode);
 
         $inserProjet->execute(array(
             $nomProjet,
-            $urlProjet
+            $urlProjet,
+            $urlProjetCode
         ));
 
         if($inserProjet == true){

@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-               <a class="nav-link" aria-current="page" href="#projets">Projets</a>
+               <a class="nav-link" aria-current="page" href="#projets">Mes Projets</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#competences">Compétences</a>
+                <a class="nav-link" aria-current="page" href="#competences">Mes Compétences</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">? ? ?</a>
