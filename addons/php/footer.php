@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-center pt-3 pb-2 ">
         <div class="col text-center">
             <ul class="list-group text-center mx-5">
-                <li class="bg-light border border-dark list-group-item"><img class="size me-2"src="addons/img/projet.svg"><a class="none" href="pages/public/projets.php">Projets</a></li>
+                <li class="bg-light border border-dark list-group-item"><img class="size me-2" src="addons/img/projet.svg"><a class="none" href="pages/public/projets.php">Projets</a></li>
                 <li class="bg-light border border-dark list-group-item"><img class="size me-2" src="addons/img/competences.svg"><a class="none" href="pages/public/projets.php">Compétences</a></li>
                 <li class="bg-light border border-dark list-group-item"><img class="size me-2" src="addons/img/info.svg"><a class="none" href="pages/public/projets.php">A propos</a></li>
             </ul>
