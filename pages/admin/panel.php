@@ -39,6 +39,7 @@ if($_SESSION['email']){
             </ul>
         </div>
         <form method="post" class="d-flex">
+            <a href="../public/register.php" class="btn btn-outline-secondary me-2" type="submit">Inscription</a>
             <button class="btn btn-outline-danger" name="btn-unlog" type="submit">Deconnexion</button>
         </form>
       </div>

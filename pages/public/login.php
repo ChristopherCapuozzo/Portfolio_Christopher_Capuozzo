@@ -22,23 +22,26 @@ session_start();
     <div class="text-center text-light mt-5">
       <h4>Connexion</h4>
     </div>
-    <div class="container bg-dark text-center pt-2">
-        <div class="">
-            <div class="col text-light mx-1">
-                <label class="form-label" for="email-register">Adresse-email</label>
-                <input class="form-control" type="email" name="email-login" placeholder="Adresse e-mail">
-            </div>
+    <div class="container text-center pt-2">
+        <div class="d-flex justify-content-center ">
+            <div class="col-4 bg-dark rounded p-2">
+                <div class="col text-light pt-2 mx-1">
+                    <label class="form-label" for="email-register">Adresse-email</label>
+                    <input class="form-control" type="email" name="email-login" placeholder="Adresse e-mail">
+                </div>
 
-            <div class="col text-light mx-1 pt-5">
-                <label class="form-label" for="password-register">Mot de passe</label>
-                <input class="form-control" type="password" name="password-login" placeholder="Mot de passe">
+                <div class="col text-light mx-1 pt-4">
+                    <label class="form-label" for="password-register">Mot de passe</label>
+                    <input class="form-control" type="password" name="password-login" placeholder="Mot de passe">
+                </div>
+                <div class="pt-3 pb-3">
+                    <button class="btn btn-success mx-1" type="submit" name="btn-login">VALIDER</button>
+                    <a href="../../index.php" class="btn btn-danger mx-1">RETOUR</a>
+                </div>
             </div>
         </div>
 
-        <div class="d-flex justify-content-center pt-3 pb-3">
-            <button class="btn btn-success mx-1" type="submit" name="btn-login">VALIDER</button>
-            <a href="../../index.php" class="btn btn-danger mx-1">RETOUR</a>
-        </div>
+        
     </div>
   </form>
 </div>

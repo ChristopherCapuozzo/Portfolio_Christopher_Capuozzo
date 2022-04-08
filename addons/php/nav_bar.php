@@ -21,7 +21,7 @@
         </ul>
     </div>
     <form class="d-flex">
-        <a href="pages/public/login.php" class="btn btn-outline-light mx-2" type="submit">Connexion</a>
+        <a href="pages/public/login.php" class="btn btn-outline-light mx-2" type="submit">PANEL</a>
         <!--<a href="pages/public/register.php" class="btn btn-outline-secondary" type="submit">Inscription</a>-->
     </form>
   </div>

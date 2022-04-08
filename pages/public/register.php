@@ -123,7 +123,7 @@ if(isset($_POST['nom-register']) && !empty($_POST['nom-register']) && isset($_PO
                 }
             </style>
             <?php
-            header("Location: ../index.php");
+            header("Location: ../../index.php");
         }else{
             ?>
             <div class="container">
