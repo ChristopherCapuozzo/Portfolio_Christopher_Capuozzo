@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../../addons/css/style.css">
     <link rel="stylesheet" href="../../addons/css/bootstrap.css">
     <!--## OTHER ##-->
-    <title>Portfolio - Accueil</title>
+    <title>Portfolio - A Propos</title>
 </head>
 <body class="bg-dark">
-    <?php require_once "../private/Projets/AfficheProjets.php"?>
+
 </body>
 </html>

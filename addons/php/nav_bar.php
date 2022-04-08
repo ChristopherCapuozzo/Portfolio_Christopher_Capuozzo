@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="pages/public/projets.php">Projets</a>
+               <a class="nav-link" aria-current="page" href="#projets">Projets</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Compétences</a>
+                <a class="nav-link" aria-current="page" href="#competences">Compétences</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">? ? ?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">A propos</a>
+                <a class="nav-link" aria-current="page" href="#apropos">A propos</a>
             </li>
         </ul>
     </div>

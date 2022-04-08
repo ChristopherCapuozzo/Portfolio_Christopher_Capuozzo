@@ -1,20 +1,27 @@
+/* # index.php # */
+
+body{
+    background-image: url(../img/section-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+
 /* # register.php # */
+
 .card-register{
     background-color: black;
 }
 
-/* # nav_bar.php # */
+/* # footer.php # */
 
-.neon-nav{
-    animation: link 6s infinite;
-    animation-delay: 3s;
+.size{
+    width: 20px;
+    height: 20px;
 }
 
-@keyframes link {
-    25%{
-        color: white !important;
-    }
-    75%{
-        color: gray !important;
-    }
+.none{
+    text-decoration: none;
 }
